@@ -1,0 +1,5 @@
+<launch>
+<node name="sender" pkg="task1" type="sender.py" output="screen"/>
+<node name="listener" pkg="task1" type="receiver.py" output="screen"/>
+<node name="listener2" pkg="task1" type="receiver2.py" output="screen"/>
+</launch>
